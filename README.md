@@ -70,7 +70,8 @@ Full options (manual, CI, AGENTS.md wiring): [install/INSTALL.md](./install/INST
 | id | for |
 |---|---|
 | [`saas-b2b`](./profiles/saas-b2b.md) | B2B SaaS — sales-assisted or PLG |
-| [`saas-b2c`](./profiles/saas-b2c.md) | consumer apps & subscriptions |
+| [`saas-b2c`](./profiles/saas-b2c.md) | consumer subscriptions (web & cross-platform) |
+| [`mobile-app`](./profiles/mobile-app.md) | native iOS / Android apps (extends saas-b2c) |
 | [`ecommerce`](./profiles/ecommerce.md) | DTC / physical goods |
 | [`marketplace`](./profiles/marketplace.md) | two-sided marketplaces |
 | [`creator-personal-brand`](./profiles/creator-personal-brand.md) | creators & personal brands |
@@ -109,7 +110,7 @@ products. Just keep attribution.
 This is a living standard, and field reports are the point. The most useful
 contributions:
 
-- **New profiles** (`mobile-app`, `local-services`, `b2b-services`, `infoproduct`…).
+- **New profiles** (`local-services`, `b2b-services`, `infoproduct`, `mobile-game`…).
 - **Sharper thresholds** for the I3 retention gate and I4 sample/confidence bars.
 - **War stories** — where the doctrine helped, and where it was wrong.
 

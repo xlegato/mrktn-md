@@ -10,3 +10,6 @@ Thumbs.db
 # Logs / temp
 *.log
 .tmp/
+
+# Internal session memory (not for publication)
+SESSION-CONTEXT.md

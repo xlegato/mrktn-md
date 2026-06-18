@@ -46,6 +46,6 @@ noise as signal.
 
 If there's a native mobile app, attribution is structurally lossy
 (SKAN/ATT/consent). Don't fight it with platform ROAS — design for **incremental
-measurement** (geo holdouts, on/off tests) and trust your cohort retention. A
-dedicated `mobile-app` profile that `extends: saas-b2c` is on the roadmap;
-until then, override ASO/attribution specifics in your instance.
+measurement** (geo holdouts, on/off tests) and trust your cohort retention. If
+you ship a native app, use the [`mobile-app`](./mobile-app.md) profile — it
+`extends` this one and overrides the store, attribution, and fee specifics.

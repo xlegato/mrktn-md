@@ -4,7 +4,7 @@
 set -euo pipefail
 
 CORE_VERSION="mrktn-core@0.2"
-PROFILES="saas-b2b saas-b2c ecommerce marketplace creator-personal-brand"
+PROFILES="saas-b2b saas-b2c mobile-app ecommerce marketplace creator-personal-brand"
 STAGES="0-ideation 1-pre-pmf 2-early-traction 3-growth 4-scale"
 
 DEST="mrktn.md"

@@ -213,7 +213,8 @@ anti_patterns:       # tactics that look right but misfire for this type
 | id | for | file |
 |---|---|---|
 | `saas-b2b` | B2B SaaS, sales-assisted or PLG | [profiles/saas-b2b.md](./profiles/saas-b2b.md) |
-| `saas-b2c` | consumer apps & subscriptions | [profiles/saas-b2c.md](./profiles/saas-b2c.md) |
+| `saas-b2c` | consumer subscriptions (web & cross-platform) | [profiles/saas-b2c.md](./profiles/saas-b2c.md) |
+| `mobile-app` | native iOS / Android apps (extends saas-b2c) | [profiles/mobile-app.md](./profiles/mobile-app.md) |
 | `ecommerce` | DTC / physical goods | [profiles/ecommerce.md](./profiles/ecommerce.md) |
 | `marketplace` | two-sided marketplaces | [profiles/marketplace.md](./profiles/marketplace.md) |
 | `creator-personal-brand` | creators, audiences, personal brands | [profiles/creator-personal-brand.md](./profiles/creator-personal-brand.md) |
@@ -246,10 +247,10 @@ Resolved top-down — the higher rule always wins:
    invariant.
 
 ### 6.3 Profile inheritance
-A profile MAY `extends:` another to avoid duplication (e.g. a future
-`mobile-app` profile extends `saas-b2c`, overriding only attribution and ASO
-specifics). Inheritance resolves the same way as precedence: child overrides
-parent, invariants override both.
+A profile MAY `extends:` another to avoid duplication — e.g. the
+[`mobile-app`](./profiles/mobile-app.md) profile extends `saas-b2c`, overriding
+only attribution, ASO, and store-fee specifics. Inheritance resolves the same
+way as precedence: child overrides parent, invariants override both.
 
 ### 6.4 Hybrids
 Real products are often two things at once. Compose them:
@@ -359,6 +360,6 @@ has stopped being true.
 ### Roadmap
 1. Concrete default thresholds for I4 (sample size / confidence) per profile.
 2. Retention floors per profile for the I3 gate (`benchmarks`).
-3. More profiles: `mobile-app`, `local-services`, `b2b-services`, `infoproduct`.
+3. More profiles: `local-services`, `b2b-services`, `infoproduct`, `mobile-game`.
 4. A reference agent implementation that visibly markets better *because* it
    follows this. (Standards win on reference implementations, not declarations.)

@@ -9,7 +9,7 @@ Doctrine: https://mrktn.md   Profiles: ../profiles
 
 ```yaml
 extends: mrktn-core@0.2
-profile: <profile>            # saas-b2b | saas-b2c | ecommerce | marketplace | creator-personal-brand
+profile: <profile>            # saas-b2b | saas-b2c | mobile-app | ecommerce | marketplace | creator-personal-brand
 also: []                      # optional secondary profiles for hybrids
 product: <PRODUCT>
 stage: 0-ideation             # 0-ideation | 1-pre-pmf | 2-early-traction | 3-growth | 4-scale
