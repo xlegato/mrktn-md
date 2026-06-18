@@ -1,0 +1,37 @@
+# mrktn.md
+
+> The open marketing doctrine for AI agents. A foundational standard for how an
+> agent should strategize marketing across a product's lifecycle — measurement
+> first, fundamentals always, scale only what survives the math. Skills and
+> connectors are the hands; mrktn.md is the brain that governs how they're used.
+> Plain Markdown, composable, licensed CC BY 4.0.
+
+## The standard
+
+- [Doctrine (mrktn.md)](https://mrktn.md/mrktn.md): The core — five invariants (measurement before money, pre-registration, the retention gate, statistical honesty, ethics & compliance), a five-stage lifecycle (ideation → scale) with explore/exploit ratios, the composition model, and the agent reasoning protocol.
+
+## Profiles
+
+- [saas-b2b](https://mrktn.md/profiles/saas-b2b.md): B2B SaaS — sales-assisted or PLG; slow, small-n feedback, lead with leading indicators.
+- [saas-b2c](https://mrktn.md/profiles/saas-b2c.md): Consumer subscriptions; fast loops, fickle attention, the retention curve must flatten.
+- [mobile-app](https://mrktn.md/profiles/mobile-app.md): Native iOS/Android; extends saas-b2c with SKAN/ATT attribution, ASO, store fees, and push re-engagement.
+- [ecommerce](https://mrktn.md/profiles/ecommerce.md): DTC / physical goods; grade on contribution margin after CAC, not platform ROAS.
+- [marketplace](https://mrktn.md/profiles/marketplace.md): Two-sided; solve the constrained side first, liquidity in one beachhead over vanity GMV.
+- [creator-personal-brand](https://mrktn.md/profiles/creator-personal-brand.md): Creators & audiences; trust is the retention gate, the owned list is the asset.
+
+## Install
+
+- [INSTALL.md](https://mrktn.md/install/INSTALL.md): Three ways to install into a product repo — tell your agent, run the scaffold command, or do it manually; includes AGENTS.md wiring.
+- [mrktn-init.sh](https://mrktn.md/install/mrktn-init.sh): Scaffold script that writes a starter local instance and can wire AGENTS.md.
+- [template.mrktn.md](https://mrktn.md/install/template.mrktn.md): Blank local-instance template.
+
+## Examples
+
+- [Ledgerly](https://mrktn.md/examples/ledgerly.mrktn.md): A worked local instance — a fictional B2B SaaS at early traction, with a Marketing Decision Record where every decision carries a reversal condition.
+
+## About
+
+- [Home](https://mrktn.md/): Landing page — the problem, the invariants, the lifecycle, and install.
+- [License (CC BY 4.0)](https://mrktn.md/LICENSE): Use it, fork it, ship it commercially — keep attribution.
+- [Source on GitHub](https://github.com/your-org/mrktn-md): Issues, PRs, and new profiles welcome.
+- Maintainer: Youssef El Ghourfi — https://mrktn.io

@@ -1,0 +1,30 @@
+# mrktn.md — an open standard, meant to be read by humans and agents alike.
+User-agent: *
+Allow: /
+
+# AI crawlers are explicitly welcome — this content exists to be read by agents.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://mrktn.md/sitemap.xml

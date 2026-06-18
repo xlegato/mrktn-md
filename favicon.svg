@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#161412"/>
+  <text x="15" y="22" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="500" fill="#faf8f4" text-anchor="middle">m</text>
+  <circle cx="24" cy="9" r="2.6" fill="#b3261e"/>
+</svg>

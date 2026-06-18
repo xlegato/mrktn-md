@@ -82,11 +82,13 @@ Hybrids compose (e.g. PLG B2B = `saas-b2b` + `saas-b2c`). See
 ## Repo structure
 
 ```
+index.html                   the landing page (served at the mrktn.md root)
 mrktn.md                     the Core doctrine (the canonical standard)
 profiles/                    pluggable per-type specializations
 examples/ledgerly.mrktn.md   a worked local instance
 install/                     INSTALL.md · mrktn-init.sh · template.mrktn.md
-site/                        the landing page
+llms.txt robots.txt sitemap.xml   discoverability for agents & crawlers
+og-image.png favicon.svg     social card + icon
 LICENSE                      CC BY 4.0
 ```
 
