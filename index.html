@@ -71,11 +71,13 @@
   @media(max-width:680px){.nav-links a:not(.gh){display:none}}
 
   /* hero */
-  header.hero{padding:40px 0 48px;border-bottom:1px solid var(--rule)}
-  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}
+  header.hero{padding:40px 0 48px;border-bottom:1px solid var(--rule);
+    min-height:80vh;display:flex;align-items:center}
+  .hero .wrap{max-width:1320px;width:100%}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:96px;align-items:center}
   @media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:30px}}
-  .hero h1{font-size:clamp(33px,4.5vw,55px);line-height:1.04;letter-spacing:-.02em;margin:14px 0 0;max-width:15ch}
-  .hero .lede{font-size:clamp(15.5px,1.4vw,18px);max-width:52ch;margin-top:15px;color:var(--ink-soft)}
+  .hero h1{font-size:clamp(33px,4.5vw,55px);line-height:1.04;letter-spacing:-.02em;margin:14px 0 0;max-width:24ch}
+  .hero .lede{font-size:clamp(15.5px,1.4vw,18px);max-width:60ch;margin-top:15px;color:var(--ink-soft)}
   .kicker{font-family:var(--serif);font-style:italic;font-size:clamp(16px,1.6vw,19px);
     color:var(--ink);margin-top:15px;padding-left:15px;border-left:2px solid var(--accent)}
   .install-box{margin-top:20px;max-width:520px}
@@ -139,8 +141,8 @@
   .life .st .n{font-family:var(--mono);font-size:12px;color:var(--accent)}
   .life .st .t{font-family:var(--serif);font-size:18px;margin:6px 0 8px;display:block}
   .life .st .q{font-size:13.5px;color:var(--ink-soft)}
-  .life .st .ee{font-family:var(--mono);font-size:11px;color:var(--ink-faint);
-    margin-top:12px;display:block}
+  .life .st .ee{font-family:var(--mono);font-size:10px;color:var(--ink-faint);
+    margin-top:12px;display:block;white-space:nowrap;letter-spacing:-.02em}
   @media(max-width:760px){.life{grid-template-columns:1fr}
     .life .st{border-right:none;border-bottom:1px solid var(--rule)}
     .life .st:last-child{border-bottom:none}}
@@ -242,14 +244,10 @@
 <header class="hero"><div class="wrap hero-grid">
   <div class="hero-left">
     <span class="eyebrow">Open standard <span class="dot">·</span> CC BY 4.0 <span class="dot">·</span> v0.2 draft</span>
-    <h1>Marketing fundamentals, finally open-sourced.</h1>
-    <p class="lede">Agents can already operate every ad platform. What they lack is
-      <strong>judgment</strong> — what to do, and what <em>not</em> to do, based on where a
-      product actually is in its life. <strong>mrktn.md</strong> is the brain above the skills.</p>
-    <p class="kicker">Measurement first. Fundamentals always. Scale only what survives the math.</p>
-    <div class="install-box">
-      <div class="code hero-code"><button class="copy">copy</button><pre>curl -fsSL https://mrktn.md/install/mrktn-init.sh | bash</pre></div>
-    </div>
+    <h1>Marketing fundamentals<br>for Agents</h1>
+    <p class="lede">Your agent can operate every ad platform.<br>
+      <strong>mrktn.md</strong> adds the reasoning layer above.<br>
+      Give your agent the power to push back on bad decisions.</p>
     <div class="cta">
       <a class="btn primary" href="https://mrktn.md/mrktn.md">Read the doctrine →</a>
       <a class="btn ghost" href="#install">How to install</a>
