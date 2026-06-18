@@ -33,5 +33,5 @@
 
 - [Home](https://mrktn.md/): Landing page — the problem, the invariants, the lifecycle, and install.
 - [License (CC BY 4.0)](https://mrktn.md/LICENSE): Use it, fork it, ship it commercially — keep attribution.
-- [Source on GitHub](https://github.com/your-org/mrktn-md): Issues, PRs, and new profiles welcome.
+- [Source on GitHub](https://github.com/xlegato/mrktn-md): Issues, PRs, and new profiles welcome.
 - Maintainer: Youssef El Ghourfi — https://mrktn.io
