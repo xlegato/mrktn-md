@@ -50,11 +50,12 @@ A profile may specialize *how* these are met. **None may weaken them.**
 Paste this to your coding agent (Claude Code, Cursor, …) in your repo:
 
 ```text
-Set up the mrktn.md marketing doctrine for this project. Read https://mrktn.md,
-pick the matching profile from https://mrktn.md/profiles, interview me about the
-product / type / lifecycle stage / ICP / constraints, then scaffold a local
-mrktn.md and add a pointer in AGENTS.md. From now on, govern all marketing
-decisions by its invariants (I1–I5).
+Set up the mrktn.md marketing doctrine for this repo. Read the doctrine at
+https://mrktn.md/mrktn.md, then pick the matching profile from the list at
+https://mrktn.md/llms.txt (e.g. https://mrktn.md/profiles/saas-b2b.md). Interview
+me about the product / type / lifecycle stage / ICP / constraints, scaffold a
+local mrktn.md, and add a pointer in AGENTS.md. From now on, govern all
+marketing decisions by its invariants (I1–I5).
 ```
 
 Or scaffold a starter file:

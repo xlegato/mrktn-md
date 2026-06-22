@@ -12,9 +12,9 @@ Paste this into Claude Code, Cursor, or any coding agent working in your repo:
 ```text
 Set up the mrktn.md marketing doctrine for this project.
 
-1. Read the doctrine at https://mrktn.md (the core standard).
-2. Read the profile that best matches this product from https://mrktn.md/profiles
-   (saas-b2b, saas-b2c, mobile-app, ecommerce, marketplace, creator-personal-brand).
+1. Read the doctrine at https://mrktn.md/mrktn.md (the core standard).
+2. From the list at https://mrktn.md/llms.txt, fetch the profile that best matches
+   this product (e.g. https://mrktn.md/profiles/saas-b2b.md).
 3. Interview me briefly: what the product is, its type, current lifecycle stage,
    the one ICP, constraints (budget/runway/team), and how success is defined.
 4. Create a local `mrktn.md` at the repo root using the template, filled with my
