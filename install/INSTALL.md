@@ -1,31 +1,34 @@
 # Installing mrktn.md
 
 `mrktn.md` is installed *into a product's repo* as a local instance that your AI
-agent then reads and obeys. There are three ways to do it — pick one.
+agent then reads and obeys. There are a few ways — pick one.
 
 ---
 
 ## Option A — Tell your agent (recommended)
 
-Paste this into Claude Code, Cursor, or any coding agent working in your repo:
+Paste this into Claude Code, Cursor, Antigravity, or any agent that can browse the web:
 
 ```text
-Set up the mrktn.md marketing doctrine for this project.
-
-1. Read the doctrine at https://mrktn.md/mrktn.md (the core standard).
-2. From the list at https://mrktn.md/llms.txt, fetch the profile that best matches
-   this product (e.g. https://mrktn.md/profiles/saas-b2b.md).
-3. Interview me briefly: what the product is, its type, current lifecycle stage,
-   the one ICP, constraints (budget/runway/team), and how success is defined.
-4. Create a local `mrktn.md` at the repo root using the template, filled with my
-   answers. Pin `extends: mrktn-core@0.2`.
-5. Add a "Marketing" section to AGENTS.md that points to the local mrktn.md and
-   states that marketing actions must obey its invariants.
-6. From now on, govern every marketing decision by the invariants (I1–I5) and
-   the reasoning protocol in the doctrine. Refuse actions that violate them.
+Set up the mrktn.md marketing doctrine in this repo. Read https://mrktn.md/mrktn.md,
+read the profile that matches this product, then interview me about the product, its
+stage, ICP, and constraints. Scaffold a local mrktn.md, point AGENTS.md at it, and
+govern all marketing decisions by its invariants.
 ```
 
-The agent reads the doctrine, scaffolds your instance, and is now bound by it.
+The agent reads the doctrine + profile, interviews you, scaffolds the instance, and is bound by it.
+
+### On an agent that can't browse the web (e.g. Claude Cowork)
+
+Sandboxed agents can't fetch URLs — feed them the files instead. Clone the repo
+(or download `mrktn.md` plus your profile from `profiles/`), open/connect that
+folder, and paste:
+
+```text
+Read mrktn.md and the matching profile in ./profiles/ from this folder. Interview me
+about the product, its stage, ICP, and constraints, then scaffold a local mrktn.md
+and point AGENTS.md at it. Govern all marketing decisions by its invariants.
+```
 
 ---
 

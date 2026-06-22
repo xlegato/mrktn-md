@@ -50,12 +50,10 @@ A profile may specialize *how* these are met. **None may weaken them.**
 Paste this to your coding agent (Claude Code, Cursor, …) in your repo:
 
 ```text
-Set up the mrktn.md marketing doctrine for this repo. Read the doctrine at
-https://mrktn.md/mrktn.md, then pick the matching profile from the list at
-https://mrktn.md/llms.txt (e.g. https://mrktn.md/profiles/saas-b2b.md). Interview
-me about the product / type / lifecycle stage / ICP / constraints, scaffold a
-local mrktn.md, and add a pointer in AGENTS.md. From now on, govern all
-marketing decisions by its invariants (I1–I5).
+Set up the mrktn.md marketing doctrine in this repo. Read https://mrktn.md/mrktn.md,
+read the profile that matches this product, then interview me about the product, its
+stage, ICP, and constraints. Scaffold a local mrktn.md, point AGENTS.md at it, and
+govern all marketing decisions by its invariants.
 ```
 
 Or scaffold a starter file:
@@ -64,7 +62,9 @@ Or scaffold a starter file:
 curl -fsSL https://mrktn.md/install/mrktn-init.sh | bash
 ```
 
-Full options (manual, CI, AGENTS.md wiring): [install/INSTALL.md](./install/INSTALL.md).
+On an agent that can't browse the web (e.g. Claude Cowork)? Read it from a local
+clone instead. Full options (offline, manual, CI, AGENTS.md wiring):
+[install/INSTALL.md](./install/INSTALL.md).
 
 ## Profiles
 
