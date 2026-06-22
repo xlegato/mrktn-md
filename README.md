@@ -62,9 +62,9 @@ Or scaffold a starter file:
 curl -fsSL https://mrktn.md/install/mrktn-init.sh | bash
 ```
 
-On an agent that can't browse the web (e.g. Claude Cowork)? Read it from a local
-clone instead. Full options (offline, manual, CI, AGENTS.md wiring):
-[install/INSTALL.md](./install/INSTALL.md).
+On a no-code agent (e.g. Claude Cowork)? [Download the all-in-one file](./mrktn.bundle.md),
+drag it into the chat, and say "set up mrktn.md for my product." Full options
+(offline, manual, CI, AGENTS.md wiring): [install/INSTALL.md](./install/INSTALL.md).
 
 ## Profiles
 

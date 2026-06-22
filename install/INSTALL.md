@@ -18,17 +18,19 @@ govern all marketing decisions by its invariants.
 
 The agent reads the doctrine + profile, interviews you, scaffolds the instance, and is bound by it.
 
-### On an agent that can't browse the web (e.g. Claude Cowork)
+### On a no-code agent that can't browse the web (e.g. Claude Cowork)
 
-Sandboxed agents can't fetch URLs — feed them the files instead. Clone the repo
-(or download `mrktn.md` plus your profile from `profiles/`), open/connect that
-folder, and paste:
+Sandboxed agents can't fetch URLs — and founders shouldn't need a terminal. Just
+[download the all-in-one file](https://mrktn.md/mrktn.bundle.md) (the whole standard —
+doctrine, every profile, and the template, in one file), drag it into the chat, and paste:
 
 ```text
-Read mrktn.md and the matching profile in ./profiles/ from this folder. Interview me
-about the product, its stage, ICP, and constraints, then scaffold a local mrktn.md
-and point AGENTS.md at it. Govern all marketing decisions by its invariants.
+Set up the mrktn.md marketing doctrine for my product from the file I attached.
+Interview me about the product, its stage, ICP, and constraints, then write my
+mrktn.md instance and govern all marketing decisions by its invariants.
 ```
+
+*(Developers: `git clone https://github.com/xlegato/mrktn-md`, open the folder, and point your agent at the files instead.)*
 
 ---
 
